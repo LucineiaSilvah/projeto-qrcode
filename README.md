@@ -1,4 +1,4 @@
-# :qrcode: Projeto QR Code
+# Projeto QR Code
 
 Este projeto é uma aplicação de linha de comando (CLI) desenvolvida em Node.js para gerar QR Codes a partir de textos ou URLs. Ele utiliza as bibliotecas `qrcode-terminal`, `chalk` e `prompt` para criar uma experiência interativa e colorida no terminal.
 
@@ -30,3 +30,28 @@ Siga os passos abaixo para configurar e executar o projeto localmente.
 ```bash
 git clone https://github.com/LucineiaSilvah/projeto-qrcode.git
 cd projeto-qrcode
+```
+
+### 2. Instale dependencias:
+```bash
+ npm i chalk
+ npm i qrcode-terminal
+ npm i prompt
+```
+
+### 3. Ajuste packege.json:
+apos main
+
+```bash
+
+   "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+
+```
+### 4. rode a apicação:
+```bash
+npm run start
+
+```
