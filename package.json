@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "script:dev": "node --env-file=.env src/index.js"
+    "start": "node --env-file=.env src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucineia Silva",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1",
